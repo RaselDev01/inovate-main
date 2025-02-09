@@ -1,0 +1,137 @@
+
+/* ALL Common CSS Start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1240px;
+    margin: 0px auto;
+}
+/* ALL Common CSS End */
+/*Headerpart CSS Start */
+.contactBtn{
+    padding: 20px 30px;
+    border-radius: 28px;
+    background: #8454F5;
+    color: #fff;    
+    font-weight: 600;
+    font-size: 18px;
+  font-family: "Nunito", serif;
+
+}
+.nav-link{
+   font-family: "Open Sans", serif;
+    color: #29313D;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+/*Headerpart  CSS End */
+/* bannerpart CSS Start */
+#banner_part{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    background: url(../Image/HeaderBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner_text h1{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Open Sans", serif;
+    color: #1D354F;
+    line-height: 60px;
+}
+.banner_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    line-height: 200%;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    padding-right: 44px;
+
+}
+/* bannerpart CSS End */
+/* servicepart CSS Start */
+.svc_h3{
+    font-size: 48px;
+    color: #29313D;
+    padding-bottom: 100px;
+}
+.svc_h4{
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #29313D;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.svc_img{
+    width: 100%;
+    height: 100%;
+}
+.svc_p{
+    line-height: 200%;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #29313D;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.svc_a{
+    color: #29313D;
+    font-weight: 600;
+}
+.box{
+    width: 23%;
+    padding: 20px;
+    margin-bottom: 90px;
+    transition: all 0.4s;
+}
+.box:hover{
+    -webkit-box-shadow: 0px 35px 100px 0px rgba(221,221,221,1);
+    -moz-box-shadow: 0px 35px 100px 0px rgba(221,221,221,1);
+    box-shadow: 0px 35px 100px 0px rgba(221,221,221,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* servicepart CSS End */
