@@ -28,11 +28,11 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;    
     font-weight: 600;
     font-size: 18px;
-  font-family: "Nunito", serif;
+    font-family: "Nunito", serif;
 
 }
 .nav-link{
-   font-family: "Open Sans", serif;
+    font-family: "Open Sans", serif;
     color: #29313D;
     font-weight: 600;
     font-size: 18px;
